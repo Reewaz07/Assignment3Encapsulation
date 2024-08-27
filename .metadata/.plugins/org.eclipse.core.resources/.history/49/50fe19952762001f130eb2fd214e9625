@@ -1,0 +1,28 @@
+package Inheritance;
+
+import java.util.Scanner;
+
+public class Question5 {
+	    public static void main(String[] args) {
+	        Scanner scanner=new Scanner(System.in);
+	        Question4[] square=new Question4[10];
+	        for(int i=0;i<square.length;i++){
+	            System.out.println("Enter Value ");
+	            System.out.println("=============================================");
+	            System.out.println("Enter Length of the square");
+	            int s=scanner.nextInt();
+	           // System.out.println("Enter breadth :");
+	         //   int breadth=scanner.nextInt();
+	            square[i]= new Question4();
+	        }
+
+	        for(Question4 square1:square){
+	        	square1.printArea();
+	        	      
+	        }
+
+	    }
+
+	}
+
+

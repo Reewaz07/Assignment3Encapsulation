@@ -1,0 +1,37 @@
+package Inheritance;
+
+import Question6.main;
+
+class Shape{
+	public void print() {
+		System.out.println("This is a shape");
+	}
+}
+	class Rectengle extends Shape{
+		public void print() {
+			System.out.println("This is a rectangular shape");
+		}
+	}
+		class Squar extends Rectengle{
+			public void print() {
+				System.out.println("Square is a rectangle ");
+			}
+		}
+	
+
+	class Circle extends Shape{
+		public void print() {
+			System.out.println("This is a circular shape");
+		}
+	}
+public class Question6 {
+	
+	public static void main(String[] args) {
+		Squar sqr= new Squar();
+		sqr.print();
+		
+		
+		
+	}
+
+}

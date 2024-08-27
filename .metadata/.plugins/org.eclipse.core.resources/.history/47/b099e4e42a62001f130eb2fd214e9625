@@ -1,0 +1,12 @@
+package Question6;
+
+import Question6.Rectang.Square;
+
+public class Question6main{
+	public static void main(String[] args) {
+		Square sqr= new Square();
+		
+		
+	}
+	
+}

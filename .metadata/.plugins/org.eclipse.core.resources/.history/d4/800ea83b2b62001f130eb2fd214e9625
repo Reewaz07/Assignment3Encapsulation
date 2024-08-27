@@ -1,0 +1,9 @@
+package Question6;
+
+public class Shape {
+	
+	public void print1() {
+		System.out.println("This is a shape");
+	}
+
+}

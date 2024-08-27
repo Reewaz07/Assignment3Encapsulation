@@ -1,0 +1,17 @@
+package Inheritance;
+
+class Rectangle{
+	int length;
+	int breadth;
+	
+}
+
+
+
+
+
+
+
+public class Question4 {
+
+}

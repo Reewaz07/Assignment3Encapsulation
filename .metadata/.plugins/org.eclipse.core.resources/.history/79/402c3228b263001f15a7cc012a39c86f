@@ -1,0 +1,11 @@
+package PracticeArray;
+
+public class PrintArray {
+	 //a[] abc= new int;
+	static int arr[]= {1,2,3,4,5};
+	public static void main(String[] args) {
+		System.out.println(arr);
+	}
+
+
+}

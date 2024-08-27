@@ -1,0 +1,16 @@
+package Question6;
+
+public class Rectang extends Shape{
+	public void print() {
+		super.print();
+		System.out.println("this is  rectangullar shape");
+	}
+}
+
+	class Square extends Rectang{
+		public void print() {
+			super.print();
+			System.out.println("Square is a rectangle");
+		}
+	}
+

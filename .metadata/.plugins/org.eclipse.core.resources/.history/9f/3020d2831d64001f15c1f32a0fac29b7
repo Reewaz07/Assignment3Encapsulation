@@ -1,0 +1,20 @@
+package practice3encapsulationandinheritance.com.example.domain;
+
+import practice3encapsulationandinheritance.Manager;
+
+public class EmployeeTestMain {
+	public static void main(String[] args) {
+		Engineer eng= new Engineer(101, "JaneSmith", "012-34-5678", 120_345_27);
+		eng.printEmployee();
+		System.out.println("-------------------------------------------------------");
+		
+		Manager mgr= new Manager(207, "Barbara johnson", "054-12-2367", 109_501.36, "US Marketing");
+		mgr.printEmployee();
+		System.out.println("Department: "+mgr.getDeptname());
+
+		Admin adm= new Admin(304, "Bill Munroe", "108-23-6509", 75_002.34);
+	}
+
+	
+
+}

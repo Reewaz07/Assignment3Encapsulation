@@ -1,0 +1,17 @@
+package practice3encapsulationandinheritance;
+
+class Employe{
+	private int empid;
+	private String name;
+	private String ssn;
+	private double Salary;
+	
+}
+
+
+
+
+public class Employee {
+	
+
+}
